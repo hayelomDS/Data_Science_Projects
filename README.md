@@ -2,7 +2,6 @@
 
 These Repository contains various Data Science projects I worked on for acadamic and self learning purpose. The projects are presented in IPython Notebooks using Jypyter Notebook and R markdown files. For convenience purposes I also have the py files with all the codes. 
 
-# **Contents**
 
 # Machine Learning 
 
