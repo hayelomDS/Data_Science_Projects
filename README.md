@@ -3,7 +3,16 @@
 These Repository contains various Data Science projects I worked on for acadamic and self learning purpose. The projects are presented in IPython Notebooks using Jypyter Notebook.
 
 # [Predicting Probability of Credit Default](https://github.com/hayelomDS/Data_Science_Projects/tree/master/credit_default)
-Credit Default: Data cleaning and preparing steps followed by transforming the data and fitting 3 different models to compare. 
+I will be working on a dataset found on the UCI Machine Learning Repository. The dataset has information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005. I choose to analyze this dataset because of my curiosity in finding what signals could indicate that can help predict borrower defaulting at least a month in advance. If that can be predicted accurately, lenders could decrease the avaliable limit or possibly close the account before it's used more.
+
+Data collection was done through the website of UCI Machine Learning Repository. The dataset has lots of irrelevant features I was able to drop. All though this dataset did not have missing values, it did have many values that was inconsistent. After doing some analysis by comparing important features against each other using comparasion operators, I was able to filter out the inconsistent data. 
+
+After the initial cleaning steps I utilized the KBinsDiscretizer function to put the age groups into bins and encoded the nominal and ordinal features. I used the min max scaler to scale some features as well before I started with my model comparison. 
+
+### Plotting Age Distribution 
+![](/images/age_dist.png)
+
+I compared the performance of Logisitc Regression, Decision Tree and Random forest models. The Descion Tree model performed better based on accuracy using only depth of 3. Allthough they were all around 80% accuarte, I found that Decision tree performed better than the Random forest as well. I utilized hyperparameter tuning which helped with accuracy. With the default depth, My accuracy was only 72% however after changing the depth to 3-5, the accuracy went up to 82% for all models. 
 	
 # [Sentiment Analysis](https://github.com/hayelomDS/Data_Science_Projects/tree/master/sentiment%20analysis%20for%20US%20airlines)
 Sentiment Analysis on data obtained from Twitter for the major US airlines: The objective of this task is to determine if I can build a model that can accurately classify a social media tweets for the major US airlines as positive or negative based on the writers polarity. Arriving at a model that can predict and classify customers sentiment accurately can be beneficial for any sector to improve thier services and products. It can also be used as a major input to busines models and help the company achieve higher revenue. Although there are countless numbers of applications where sentiment analysis can be used, just to mention a few it can be used for decision making in the business by analyzing public opinion and developing new strategies. Sentiment analysis can also be used to gain advantage on the competitors. Other uses include improving customer service and predicting opinions on current products.
