@@ -13,12 +13,26 @@ Sentiment Analysis on data obtained from Twitter for the major US airlines: The 
 
 In this project I explored with different models and utilized parameter optimization techniques for each of those models to arrive at the model that has the best accuracy. The models explored with are Logistic Regression, Naïve Bayes and Support Vector Machine. The Pandas and Numpy libraries were utilized to clean and prepapre the data. The NLTK library and the Bag of Words approach were also used to transform and tokenize the words. 
 
-# Project Implementation
+## Project Implementation
 
 The first and the most important step in any Data Science project is data cleaning and data preprocessing. In order to achieve a high accuracy, cleaning our data in a way that is required for our particular problem we are trying to solve is a vital step. Since we are dealing with a text data doing some explanatory analysis is required. After dropping features that is not relevant for this analysis the final Data Frame has 3 features which are Airline names, tweets and label. Mainly I utilized the Pandas and NumPy library’s for analysis and explanatory steps.
 
 The Regular Expression (RE) library was utilize to help clean the text feature with the NLTK library to tokenize and stem the text. In order to arrive at high accuracy level the data we feed to the program needs to be clean. One of the approach I took was that to remove short words such words that have less than three characters. Even though the Stop words library was used to remove common words, it does not however remove every common words on every situation and removing small words was very important approach. Below is the function used to clean the data.
 
 ![](/images/clean_func.png)
+
+## Storytelling and Visualization
+
+To better understand the dataset we are working with, performing visualization is a necessary step in Data Science. Here I believe the use of word cloud library is the perfect fit since we are dealing with high amount of words and it shows us the most common words in a bigger font which makes it easier to visualize.
+
+### Most frequently used words in Positive Sentiments
+![](/images/Positive wordcloud.png)
+
+### Most frequently used words in Negative Sentiments
+![](/images/negative wordcloud.png)
+
+
+
+
 
 
