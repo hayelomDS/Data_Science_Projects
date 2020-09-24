@@ -26,10 +26,11 @@ The Regular Expression (RE) library was utilize to help clean the text feature w
 To better understand the dataset we are working with, performing visualization is a necessary step in Data Science. Here I believe the use of word cloud library is the perfect fit since we are dealing with high amount of words and it shows us the most common words in a bigger font which makes it easier to visualize.
 
 ### Most frequently used words in Positive Sentiments
-![](/images/Positive wordcloud.png)
+![](/images/Positive_wordcloud.png)
 
 ### Most frequently used words in Negative Sentiments
-![](/images/negative wordcloud.png)
+![](/images/negative_wordcloud.png)
+
 
 
 
