@@ -2,9 +2,6 @@
 
 These Repository contains various Data Science projects I worked on for acadamic and self learning purpose. The projects are presented in IPython Notebooks using Jypyter Notebook.
 
-
-# Machine Learning 
-
 # [Predicting Probability of Credit Default](https://github.com/hayelomDS/Data_Science_Projects/tree/master/credit_default)
 Credit Default: Data cleaning and preparing steps followed by transforming the data and fitting 3 different models to compare. 
 	
