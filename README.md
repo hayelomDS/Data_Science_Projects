@@ -31,9 +31,6 @@ To better understand the dataset we are working with, performing visualization i
 ### Most frequently used words in Negative Sentiments
 ![](/images/negative_wordcloud.png)
 
+## Model Testing
 
-
-
-
-
-
+In conclusion although I believe SVM gave us the best accuracy, it is not an ideal approach to take in the real world because of the computational cost. Logistic Regression gave us a very similar result to SVM and it’s a better model to use. The Naïve Bayes model was lower in accuracy compared to the other models however I still prefer to use the Naïve Bayes model due its simplicity to use and its flexibility to handle high dimensional feature. NLP is still growing as a field and there are still lots of work and research to be done in this field. I was able to obtain accuracy in the high 70’s with all class labels and over 90% for 2 class labels on every model I trained. However I believe there are more I can do and implement particularly in the data cleaning and preprocessing steps to get a higher results.
