@@ -1,6 +1,6 @@
 # **Data Science Projects**
 
-These Repository contains various Data Science projects I worked on for acadamic and self learning purpose. The projects are presented in IPython Notebooks using Jypyter Notebook.
+These Repository contains various Data Science projects I worked on for acadamic and self learning purpose. The projects are presented in IPython Notebooks using Jypyter Notebook as well as a python script file. 
 
 # [Predicting Probability of Credit Default](https://github.com/joshweld/Data_Science_Projects/tree/master/credit_default)
 I will be working on a dataset found on the UCI Machine Learning Repository. The dataset has information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005. I choose to analyze this dataset because of my curiosity in finding what signals could indicate that can help predict borrower defaulting at least a month in advance. If that can be predicted accurately, lenders could decrease the avaliable limit or possibly close the account before it's used more.
