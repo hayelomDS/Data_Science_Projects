@@ -20,13 +20,9 @@ Sentiment Analysis on data obtained from Twitter for the major US airlines: The 
 In this project I explored with different models and utilized parameter optimization techniques to arrive at a model with the best accuracy. The models I explored with were Logistic Regression, Naïve Bayes and Support Vector Machine. The Pandas and Numpy libraries were utilized to clean and prepapre the data. The NLTK library and the Bag of Words approach were also used to transform and tokenize the words. 
 
 
-The first and the most important step in any Data Science project is data cleaning and data preprocessing. In order to achieve a high accuracy, cleaning our data is a vital step. During explanatory analysis I dropped unnecessary features. The three features used were Airline names, tweets and label. I utilized the Pandas and NumPy library’s for analysis and explanatory steps. The Regular Expression (RE) library was used to clean the text feature as well as the NLTK library to tokenize and stem the text. In order to arrive at high accuracy level the data we feed to the program needs to be clean. One of the approach I followed was to remove short words that have less than three characters. Even though the Stop words library was used to remove common words, it does not however remove every common words. Below is the function used to clean the data.
+The first and the most important step in any Data Science project is data cleaning and data preprocessing. In order to achieve a high accuracy, cleaning our data is a vital step. During explanatory analysis I dropped unnecessary features. The three features used were Airline names, tweets and label. I utilized the Pandas and NumPy library’s for analysis and explanatory steps. The Regular Expression (RE) library was used to clean the text feature as well as the NLTK library to tokenize and stem the text. In order to arrive at high accuracy level the data we feed to the program needs to be clean. One of the approach I followed was to remove short words that have less than three characters. Even though the Stop words library was used to remove common words, it does not however remove every common words. Below is the function used to clean the data and some visualization with word cloud library.
 
 ![](/images/clean_func.png)
-
-## Storytelling and Visualization
-
-To better understand the dataset we are working with, performing visualization is a necessary step in Data Science. Here I believe the use of word cloud library is the perfect fit since we are dealing with high amount of words and it shows us the most common words in a bigger font which makes it easier to visualize.
 
 ### Most frequently used words in Positive Sentiments
 ![](/images/Positive_wordcloud.png)
