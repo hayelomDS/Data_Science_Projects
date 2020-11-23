@@ -52,7 +52,13 @@ From the box plot we can see the averge score among male, female and others are 
 
 The objective of this project is to predict future prices of Antique watches using Multiple Linear Regression. The data used is from Mendenhall and Sincich (1993, page 173).The variables used in this model are "Age of the clock" as independent variable, "Number of individuals participating in the bidding" as the second independent variable and "selling price of the clock" as the dependent variable. The research questions are 1) To find if the ages of the clock and number of bidder variables predictive selling price of the clock accurately. 2) If they are predictive variables, how well do they predict it? I will be using regression analysis for multiple predictor variables to study the relationships between the variables.
 
-A multiple regression model was run to predict selling price of the clocks from number of bidders and age of the clock. These variables statistically significantly predicted the selling price,
+### Plotting Price Distribution 
+![](/images/price_hist_anitque.png)
+
+A multiple regression model was run to predict selling price of the clocks from number of bidders and age of the clock. These variables statistically significantly predicted the selling price.
+
+### Linear Regression Model Output 
+![](/images/lr_antique_watch.png)
 
 F(29) = 120.7, p < .0005, R2 = .893. The two variables added statistically significantly to the
 prediction, p < .05.
