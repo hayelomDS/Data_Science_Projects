@@ -47,3 +47,20 @@ The main objective for this project is to have an accurate, consistent and compl
 While cleaning the data, we noticed several issues with missing data and inconsistent data. The "age" column contained strings values with participants who chose not to disclose their age. The "Country" column contained many typos, abbreviation and inconsistent entry. To solve these issues we were able to build a set that contained all common typos and different names and looped through the column to replace the errors with the correct value. Our primary objective was to do data analysis and answer some basic questions on U.S. and Canada. We removed all data that was not from these two countries.  
 
 From the box plot we can see the averge score among male, female and others are similar. However, the interquartile range for male is more narrow than female. Based on the graph, we can assume that female have a stronger sentiment about the taste of the candy. When the categories are less than 5, pie chart is useful to vizualize the distribution. As the gender distribution chart shows, there are 4 categories (Male, Female, Others and I would rather not say). From the chart we can easily see the proportion of male is more than 50%. However, if there are too many variables, a pie chart might make it harder to easily visualize and a bar plot might be a better option. To detect the popularities of 103 different types of candies we used a bar plot to describes the scores of each candy. 
+
+# [Predicting antique watch prices in R using Linear Regression](https://github.com/joshweld/Data_Science_Projects/tree/master/antique_watches)
+
+The objective of this project is to predict future prices of Antique watches using Multiple Linear Regression. The data used is from Mendenhall and Sincich (1993, page 173).The variables used in this model are "Age of the clock" as independent variable, "Number of individuals participating in the bidding" as the second independent variable and "selling price of the clock" as the dependent variable. The research questions are 1) To find if the ages of the clock and number of bidder variables predictive selling price of the clock accurately. 2) If they are predictive variables, how well do they predict it? I will be using regression analysis for multiple predictor variables to study the relationships between the variables.
+
+A multiple regression model was run to predict selling price of the clocks from number of bidders and age of the clock. These variables statistically significantly predicted the selling price,
+
+F(29) = 120.7, p < .0005, R2 = .893. The two variables added statistically significantly to the
+prediction, p < .05.
+
+The regression equation is:
+𝑌 = −1336.7221 + 85.8151(𝐵𝑖𝑑𝑑𝑒𝑟𝑠) + 12.7362(𝐴𝑔𝑒)
+
+This equation means that for every bidder the predicted price will increase by 85.82 pounds sterling with a 
+constant age. On the other hand, for every year added to the clock it will be an increase of 12.74
+pounds sterling with a constant bidder. We can also notice that both the Multiple R-squared and
+the Adjusted R-squared are approximately 89% which shows how well the regression model explains the data.
