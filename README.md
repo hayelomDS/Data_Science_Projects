@@ -30,8 +30,6 @@ The first and the most important step in any Data Science project is data cleani
 ### Most frequently used words in Negative Sentiments
 ![](/images/negative_wordcloud.png)
 
-## Model Testing
-
 In conclusion, SVM gave us the best accuracy, However it is not an ideal approach to take in the real world because of the computational cost. Logistic Regression had similar result to SVM and it’s a better model to use. The Naïve Bayes model was lower in accuracy compared to the other models however I prefer to use the Naïve Bayes model due its simplicity and its flexibility to handle high dimensional feature. NLP is still rapidly growing and there is still much more work and research to be done in this field. I was able to obtain accuracy in the high 70’s with three targets and over 90% with two targets on every model I trained. However I believe there is more work I can do to improve my results particularly in the data cleaning and preprocessing steps. 
 
 # [Stock Index Prediction](https://github.com/joshweld/Data_Science_Projects/tree/master/Stock_index)
