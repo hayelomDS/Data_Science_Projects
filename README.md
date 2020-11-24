@@ -2,6 +2,13 @@
 
 These Repository contains various Data Science projects I worked on for acadamic and self learning purpose. The projects are presented in IPython Notebooks using Jupyter Notebook as well as a python script file. 
 
+### Projects  
+1. Predicting Probability of Credit Default (Logisitc Regression, Decision Tree and Random forest models)
+2. Sentiment Analysis on Twitter data (Logistic Regression, Naïve Bayes and Support Vector Machine)
+3. S&P 500 Stock Index Prediction (Multiple Linear Regression)
+4. Data Cleaning and Preparation on Halloween Candy Survey data (Pandas, NumPy, Matplotlib)
+5. Predicting antique watch prices in R using Linear Regression (Multiple Linear Regression)
+
 # [Predicting Probability of Credit Default](https://github.com/joshweld/Data_Science_Projects/tree/master/credit_default)
 I worked on a dataset found from the UCI Machine Learning Repository. The dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients from Taiwan for the time period of April 2005 to September 2005. I choose to analyze this dataset because of my curiosity in finding factors that contribute to defaults and finding signals that could indicate to defaults ahead of time that can help lenders decrease their loss. If defauly can be predicted accurately in advance, lenders could decrease the avaliable limit or possibly close the account and cut their loss short.
 
