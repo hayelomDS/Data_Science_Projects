@@ -12,6 +12,12 @@ After reading the data into jupyter notebook and explored in details, my initial
 
 After preping my data for modeling by cleaning and scaling, I used three classfication models to predict and compare performance. I used Logisitc Regression, Decision Tree and Random forest models. I used the accuracy metric for performance evaluation. All three models performed nearly identical with an accuracy of 80% However the Decision Tree model performed a little better when using depth of 3. I learned the importance of hyperparameter tuning which helped increase the accuracy of Decision Tree from the initial result of 72% with defauly parameters to 82% accuracy. 
 
+### Plotting Heatmap for Logistic Regression  
+![](/images/Logistic_reg_heatmap.png)
+
+### Plotting Heatmap for Random Forest
+![](/images/random_forest_heatmap.png)
+
 In conclusion although I was able to obtain 82% accuracy on all three models, more research can be completed to find any hidden signs that can direct us to the solution and avoid significant loss. I was able to see that some of the biggest factors were credit utilization, available balance, payment history, and possibly age. I believe that lenders can use this type of data and monitor all customers to cut down losses and increase profit margins. 
 	
 # [Sentiment Analysis](https://github.com/joshweld/Data_Science_Projects/tree/master/sentiment%20analysis%20for%20US%20airlines)
